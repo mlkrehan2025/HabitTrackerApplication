@@ -37,6 +37,16 @@
             android:text="Small steps. Big changes."
             android:textColor="@color/splash_sub"
             android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGetStarted"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Get Started"
+            android:textColor="@color/green_primary"
+            android:background="@drawable/bg_get_started" />
+
     </LinearLayout>
 
     <ProgressBar
